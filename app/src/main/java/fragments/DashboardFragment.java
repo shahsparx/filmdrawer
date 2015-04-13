@@ -61,7 +61,10 @@ public class DashboardFragment extends Fragment {
 
     private void setUpElements() {
         filmCount.setText(DatabaseController.getCountFilms(activity.getDbManager())+"");
-        randomFilm.setText(randFilm.toString());
+        if(randFilm!=null)
+            randomFilm.setText(randFilm.toString());
+        else
+            randomFilm.setText("");
     }
 
     private void initElements() {
