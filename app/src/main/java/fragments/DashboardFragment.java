@@ -52,9 +52,10 @@ public class DashboardFragment extends Fragment {
         randomFilm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                activity.openFragment(
-                        new FilmFragment(randFilm.getId())
-                );
+                if(randomFilm.getText()!="")
+                    activity.openFragment(
+                            new FilmFragment(randFilm.getId())
+                    );
             }
         });
     }

@@ -9,10 +9,12 @@ import sql.DatabaseManager;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.app.Activity;
 import android.database.Cursor;
 import android.support.v4.widget.DrawerLayout;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
@@ -36,11 +38,12 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
+        setUpDB();
+
         setUpElements();
 
         setUpMenu();
 
-		setUpDB();
 //		alertMovies();
 	}
 
