@@ -3,6 +3,26 @@
 
     <string name="app_name">Film Drawer</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="movies_list">Movies list</string>
+    <string name="add_movie">Add movie</string>
+    <string name="about">About</string>
+    <string name="random_movie">Random movie</string>
+    <string name="find">find movie</string>
+    <string name="choose_movie">Choose movie</string>
+
+    <!-- movie fragment -->
+
+    <string name="film_genre">genre</string>
+    <string name="film_director">director</string>
+    <string name="film_writer">writer</string>
+    <string name="film_actors">actors</string>
+    <string name="film_country">country</string>
+    <string name="film_plot">plot</string>
+    <string name="film_awards">awards</string>
+
+    <!-- add movie -->
+    <string name="movie_added">added</string>
+    <string name="movie_not_found">movie not found</string>
 
 </resources>

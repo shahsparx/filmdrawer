@@ -17,4 +17,4 @@
         android:divider="@android:color/transparent"
         android:dividerHeight="0dp"
         android:background="#ddd"/>
-</android.support.v4.widget.DrawerLayout><!-- From: file:/G:/Spec/FilmDrawer/app/src/main/res/layout/activity_main.xml -->
+</android.support.v4.widget.DrawerLayout><!-- From: file:/media/klaus/C91F-DCB1/Spec/film_back/filmdrawer/app/src/main/res/layout/activity_main.xml -->

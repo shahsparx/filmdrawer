@@ -57,10 +57,10 @@ public class MainActivity extends Activity {
 
     private void setUpMenu() {
         String[] menuItems = new String[] {
-                "Dashboard",
-                "Lista filmów",
-                "Dodaj film",
-                "About"
+                getString(R.string.dashboard),
+                getString(R.string.movies_list),
+                getString(R.string.add_movie),
+                getString(R.string.about)
         };
         menuAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, menuItems);
         leftDrawer.setAdapter(menuAdapter);

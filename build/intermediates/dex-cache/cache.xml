@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\ADT_22.0.1\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jar="/media/dane/Android/android-sdk-linux/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="G:\Spec\FilmDrawer\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-973757b2af57e66c9bff33e6817c474e9afe259a.jar" />
+        <dex dex="/media/klaus/C91F-DCB1/Spec/film_back/filmdrawer/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-cdb7a2f20b190ffd45eb619c7581eccbc971e59a.jar" />
     </item>
 
 </items>

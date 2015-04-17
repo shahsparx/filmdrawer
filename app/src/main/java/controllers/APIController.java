@@ -7,6 +7,8 @@ import android.os.AsyncTask;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.example.filmdrawer.R;
+
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
@@ -59,17 +61,14 @@ public class APIController {
 
             try {
                 HttpGet httpPost = new HttpGet(URI+test);
-                Log.d("elo",URI+test);
+//                Log.d("elo",URI+test);
                 DefaultHttpClient httpClient = new DefaultHttpClient();
                 HttpResponse httpResponse = null;
                 httpResponse = httpClient.execute(httpPost);
                 String jsonString = EntityUtils.toString(httpResponse.getEntity(), HTTP.UTF_8);
-                //jesli jsonString nie jest pusty wtedy parsuje go na obiekt JSON
-                Log.d("elo","content: "+jsonString);
-//                jsonObj = new JSONObject(jsonString);
                 return new Film(jsonString);
             } catch (Exception e) {
-                Log.e("elo",e.toString());
+//                Log.e("elo",e.toString());
                 e.printStackTrace();
             }
 
@@ -80,9 +79,9 @@ public class APIController {
         protected void onPostExecute(Film film) {
             if(film!=null && film.year>0) {
                 DatabaseController.addMovie(dbManager, film);
-                alert("\"" + film.toString() + "\" film dodano");
+                alert("\"" + film.toString() + "\" "+context.getString(R.string.movie_added));
             }else{
-                alert("nie znaleziono");
+                alert(context.getString(R.string.movie_not_found));
             }
         }
     }

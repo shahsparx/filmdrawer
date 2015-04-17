@@ -26,7 +26,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="genre"/>
+                android:text="@string/film_genre"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -39,7 +39,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="director"/>
+                android:text="@string/film_director"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -52,7 +52,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="writer"/>
+                android:text="@string/film_writer"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -65,7 +65,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="actors"/>
+                android:text="@string/film_actors"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -78,7 +78,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="country"/>
+                android:text="@string/film_country"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -91,7 +91,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="plot"/>
+                android:text="@string/film_plot"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -104,7 +104,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="awards"/>
+                android:text="@string/film_awards"/>
 
             <TextView
                 android:layout_width="wrap_content"

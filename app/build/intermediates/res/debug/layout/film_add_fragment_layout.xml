@@ -7,7 +7,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="dodawacz"
+        android:text="@string/add_movie"
         android:id="@+id/textView5"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="20sp"
@@ -25,7 +25,7 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Szukaj filmu"
+        android:text="@string/find"
         android:id="@+id/filmSeekButton"
         android:layout_gravity="center_horizontal" />
-</LinearLayout><!-- From: file:/G:/Spec/FilmDrawer/app/src/main/res/layout/film_add_fragment_layout.xml -->
+</LinearLayout><!-- From: file:/media/klaus/C91F-DCB1/Spec/film_back/filmdrawer/app/src/main/res/layout/film_add_fragment_layout.xml -->
